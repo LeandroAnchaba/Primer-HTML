@@ -1,1 +1,2 @@
 Este es otro archivo
+Probando otra forma a git status
