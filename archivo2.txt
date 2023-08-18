@@ -1,2 +1,3 @@
 Este es otro archivo
 Probando otra forma a git status
+Este cambio lo agrego en la ramaB (nuevo branch)
