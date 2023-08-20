@@ -1,0 +1,26 @@
+Notas
+
+En HTML se escribe con etiquetas que se habren y cierran con los signos de <> </>
+<"tipo de etiqueta"> Contenido de la etiqueta </"tipo de etiqueta">
+
+Las etiquetas mas usadas signos
+    h1: El título más grande dentro del cuerpo de la pagina (body)
+    <!-- -->: Se usa para comentar
+    p: Esto es un párrafo
+    b: Texto en negrita (bold). Se puede combinar con la etiquea <p>
+    i: Texto en italica (cursiva). Se puede combinar con la etiquea <p>
+    <br>: Salto de linea
+    span: Permite cambiar estilos a parte del texto. Se tiene que incluir que cambio  se deben hacer
+    <a href="https://www.google.com"> Ir a google </>: ancord, hipervinculos
+    <a href="https://www.google.com" target="_blank"> Ir a google </>: hipervinculo en otra pestaña
+    <ul> + <li>:lista no numerada 
+    <ol> + <li>:lista numerada
+
+    Tablas:
+    <table>: Para armar una tabla. se combina con las siguientes
+        <thead>: Cabecera  "nombre de los atributos"
+            <tr>: columnas dentro de la tabla
+                <th>: Aca se escriben lo que va en cada columna
+        <tbody>: 
+            <td>: columnas dentro de la tabla
+                <th>: Aca se escriben lo que va en cada columna
