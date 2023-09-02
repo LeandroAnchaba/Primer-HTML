@@ -11,14 +11,19 @@ git config -l: para ver la configuracion de git en el equipo
 
 git init: para inicializar un nuevo repositorio en un directorio en particular
     se crera una carpeta oculta ".git"
+
 git status: para verificar el estado del repositorio
     untracked file: indica que hay archivos que estan el el espacio de trabajo
     "working directory" y que no se estan siguiendo
+
 git add nombredearchivo.extencion: Para agregar los archivos no seguidos al 
     area de preparación "staging area"
     git rm --cached <file>: para revertir el "add" anterior
+
 git commit -m "descripcion del commit": confirmacion de los cambios. Se guardan los cambias hasta el momento
+
 git log: para ver los ultimos cambios del proyecto
+
 git branch: ramas del proyecto
     master: rama principal
     git branch nombreDelaNuevaRama: Crea una nueva rama
@@ -30,6 +35,15 @@ git branch: ramas del proyecto
     git branch -d nombreDelaNuevaRama: borra la rama nombreDelaNuevaRama
     git marge nombreDelaNuevaRama: Posicionados en la rama principal "master" unifica los profectos
         y cambios de la nueva rama en la principal
+
 git reset --hard: codigoHash de commit: se regresa al punto indicado del proyecto eliminando
     los puntos creados posteriormente al mismo.
+
 git reset --soft:
+
+git remote add origin https://github.com/usuario/nombreDelRepositorio: Direccion
+    de un repositorio remoto en github
+    git branch -m main: nombre de la rama en el repositorio remoto
+    git push -u origin main: sube los cambios del repositorio local al remoto
+
+git remote -v: se consulta sobre los repositorios remotos
